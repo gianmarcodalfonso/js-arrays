@@ -21,7 +21,7 @@ console.log(teachers[4])
 const lastTeacher = teachers[6];
 console.log(lastTeacher);
 teachers.pop();
-console.log(teachers);
+console.log(`${teachers}`)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers[0];
